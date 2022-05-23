@@ -1,6 +1,8 @@
 import '../App.css';
 import CVpdf from '../Docs/cvtex.pdf';
-import { useState } from 'react';
+
+//Commented out for Netlify
+// import { useState } from 'react';
 
 export const Navbar = () => {
     //Commented out for Netlify
