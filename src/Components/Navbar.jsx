@@ -2,11 +2,12 @@ import '../App.css';
 import CVpdf from '../Docs/cvtex.pdf';
 
 //Commented out for Netlify
-import { useState } from 'react';
+// import { useState } from 'react';
 
+// export const Home = ({ user, setUser, watchList }) => {
 
-export const Navbar = () => {
-    const [clickState, setClickState] = useState([1, 0, 0, 0]);
+export const Navbar = ( {clickState, setClickState} ) => {
+    // const [clickState, setClickState] = useState([1, 0, 0, 0]);
     const elementClassLookupArray = ["headerBarMenuElement", "headerBarMenuElementBold"];
     //Commented out for Netlify
     // const [navHover, setNavHover] = useState(false);
