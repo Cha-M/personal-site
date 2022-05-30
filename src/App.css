@@ -355,6 +355,21 @@ body {
   /*lesser not bolded like this*/
 }
 
+.bodyAreaPageSkillsTitle {
+
+  margin-top: 4.5rem;
+  min-width: 46rem;
+  height: 100pw;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  text-align: center;
+  margin-top: 7rem;
+  /*lesser not bolded like this*/
+}
+
 .bodyAreaPageMainText {
   
   display: flex;
@@ -371,6 +386,38 @@ body {
   flex-direction: row;
   /* margin-left: 8rem; */
   width: 48rem;
+
+}
+
+.skillsContainer {
+  width: 70rem;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 8rem; */
+
+}
+
+.bodyAreaPageSkills {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* width: 54vw; */
+  width: 22rem;
+  max-width: 22rem;
+  min-width: 22rem;
+  max-height: 22rem;
+  margin-top: 3rem;
+  /* margin-left: 247px; */
+  background: rgb(245, 245, 255);
+  min-height: 70vh;
+  /* flex-shrink: 0; */
+  margin: 1.5rem;
+  
+  /* border: 1pt black solid;  */
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 }
 
