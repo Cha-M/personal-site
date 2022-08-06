@@ -19,7 +19,7 @@ export const Paper = () => {
 
                 <div className ="bodyAreaPageMainInnerBody2"> <p>Coming from a professional space but also having a self-taught aptitude from a genuine interest in programming, I'm now looking for opportunities for work in web development. The boot camp focussed on JavaScript, React and the MERN stack, but I'm flexible with regard to learning technologies, having picked up Python, VBA and some C++ as a hobby. I'm a self-taught and bootcamp educated developer, eager to learn with a background in financial services.</p>
 
-                <p>If you happen to be a recruiter reading this, please feel free to get in touch! I'm actively seeking currently and can be most easily contacted on Linkedin.</p>
+                <p>I can be most easily contacted on Linkedin.</p>
                 </div>
                 
             </div>
