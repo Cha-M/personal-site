@@ -1,7 +1,3 @@
-import '../App.css';
+import "../App.css";
 
-export const ColumnLeft = () => {
-    return (
-        <div className = "borderColumnL"></div>
-    )
-}
+export const ColumnLeft = () => <div className="borderColumnL"></div>;
