@@ -4,22 +4,24 @@ export const Paper = () => {
   return (
     <div className="bodyAreaPage">
       <div>
-        <div className="bodyAreaPageAuthor">Charlotte Megroff</div>
-        <div className="bodyAreaPageTitle">Web Developer</div>
-      </div>
-
-      <div>
         <div className="bodyAreaPageMainText">
-          <div className="bodyAreaPageMainInitial">A</div>
-          <div className="bodyAreaPageMainInnerBody">
-            fter using my self-taught programming skills to change direction in
+          {/* <div className="bodyAreaPageMainInitial">A</div> */}
+          <div className="bodyAreaPageSkillsHeading">
+            <div>Hello, I'm Charlotte Megroff. </div>
+            <div>A front-end developer based in Cheltenham, UK.</div>
+            {/* I've developed features and components for a popular
+            web app. After using my self-taught programming skills to change
+            direction in my administrative career, developing Excel and VBA
+            tools for accounting and project management, I completed a
+            twelve-week web development boot camp with Code Nation. */}
+            {/* After using my self-taught programming skills to change direction in
             my administrative career, developing Excel and VBA tools for
             accounting and project management, I recently completed a
-            twelve-week web development boot camp with Code Nation.
+            twelve-week web development boot camp with Code Nation. */}
           </div>
         </div>
 
-        <div className="bodyAreaPageMainText2">
+        {/* <div className="bodyAreaPageMainText2">
           <div className="bodyAreaPageMainInnerBody2">
             {" "}
             <p>
@@ -33,7 +35,7 @@ export const Paper = () => {
             </p>
             <p>I can be most easily contacted on Linkedin.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

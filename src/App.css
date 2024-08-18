@@ -3,7 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Inter:wght@300;500&display=swap");
 
 body {
-  font-family: "Cormorant", serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
   /* align-items: stretch; */
   /* background-image: "images/newLeftReview.png"; */
   margin: 0;
@@ -11,22 +12,19 @@ body {
 
 /* header {
   display: flex;
-  font-family: 'Inter', sans-serif;
   color: white;
 } */
 
 .headerBar150px {
-  font-family: "Inter", sans-serif;
-
-  color: black;
+  color: aliceblue;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background: rgb(245, 245, 255);
+  background: rgb(10, 10, 10);
   justify-content: center;
   align-items: center;
-  border-top: 2pt black solid;
-  border-bottom: 2pt black solid;
+  border-top: 2pt aliceblue solid;
+  border-bottom: 2pt aliceblue solid;
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
@@ -39,7 +37,6 @@ body {
 }
 
 .headerBar48px {
-  font-family: "Inter", sans-serif;
   /* canvas blob? */
   width: 100vw;
   display: flex;
@@ -49,7 +46,6 @@ body {
 }
 
 .headerBarTitle {
-  /* font-family: 'Inter', sans-serif; */
   /* border:solid white 2px; */
   display: flex;
   align-items: center;
@@ -58,7 +54,6 @@ body {
 }
 
 .headerBarTitleText {
-  /* font-family: 'Inter', sans-serif; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,8 +65,8 @@ body {
 
   text-align: justify;
   letter-spacing: 1.1rem;
-  border-top: 1pt solid black;
-  border-bottom: 1pt solid black;
+  /* border-top: 1pt solid aliceblue;
+  border-bottom: 1pt solid aliceblue; */
   text-indent: 1.1rem;
   max-height: 6.3rem;
   min-height: 3rem;
@@ -92,7 +87,6 @@ body {
 }
 
 .headerBarMenu {
-  /* font-family: 'Inter', sans-serif; */
   display: flex;
   flex-direction: row;
   /* flex-direction: row; */
@@ -100,14 +94,13 @@ body {
   width: 100vw;
   font-size: 1.125rem;
   text-transform: uppercase;
-  background: rgb(245, 245, 255);
+  background: rgb(10, 10, 10);
 
   font-weight: 900;
 }
 
 @media only screen and (max-width: 768px) {
   .headerBarMenu {
-    /* font-family: 'Inter', sans-serif; */
     display: flex;
     flex-direction: column;
     /* flex-direction: row; */
@@ -116,14 +109,13 @@ body {
     width: 100vw;
     font-size: 1.125rem;
     text-transform: uppercase;
-    background: rgb(245, 245, 255);
+    background: rgb(10, 10, 10);
     font-weight: 900;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .headerBarTitleText {
-    /* font-family: 'Inter', sans-serif; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,8 +127,8 @@ body {
 
     text-align: justify;
     letter-spacing: 1.1rem;
-    border-top: 1pt solid black;
-    border-bottom: 1pt solid black;
+    border-top: 1pt solid aliceblue;
+    border-bottom: 1pt solid aliceblue;
     max-height: 6.3rem;
     min-height: 3rem;
     white-space: nowrap;
@@ -166,8 +158,8 @@ body {
   margin-right: 10vw;
   display: flex;
   min-width: 21rem;
-  border-top: 1pt solid black;
-  border-bottom: 1pt solid black;
+  /* border-top: 1pt solid aliceblue;
+  border-bottom: 1pt solid aliceblue; */
   max-height: 6.3rem;
   min-height: 3rem;
 
@@ -179,8 +171,8 @@ body {
     margin-right: 10vw;
     display: flex;
     min-width: 6rem;
-    border-top: 1pt solid black;
-    border-bottom: 1pt solid black;
+    /* border-top: 1pt solid aliceblue;
+    border-bottom: 1pt solid aliceblue; */
     max-height: 6.3rem;
     min-height: 3rem;
     margin-top: 1pt;
@@ -191,26 +183,25 @@ body {
 }
 
 .headerBarMenuElement {
-  /* font-family: 'Inter', sans-serif; */
   margin-left: 0.5vh;
   margin-right: 0.5vh;
   font-weight: 400;
   transition: color 0.5s;
   letter-spacing: 0.1rem;
+  cursor: pointer;
 }
 
 .headerBarMenuElementBold {
-  /* font-family: 'Inter', sans-serif; */
   margin-left: 0.5vh;
   margin-right: 0.5vh;
   transition: color 0.5s;
   letter-spacing: 0.1rem;
   font-weight: 600;
+  cursor: pointer;
   /* font-style: italic; */
 }
 
 .headerBarMenuElementGrey {
-  /* font-family: 'Inter', sans-serif; */
   margin-left: 0.5vh;
   margin-right: 0.5vh;
   letter-spacing: 0.1rem;
@@ -218,39 +209,35 @@ body {
 }
 
 .headerBarMenuElement:hover {
-  /* font-family: 'Inter', sans-serif; */
-  color: lightgray;
-  /* border-bottom: black 1pt solid;
-  border-top: black 1pt solid; */
+  color: white;
+  /* border-bottom: aliceblue 1pt solid;
+  border-top: aliceblue 1pt solid; */
 }
 
 .bodyAreaUp {
-  /* font-family: 'Cormorant', serif; */
   display: flex;
   flex-direction: row;
   flex: 1;
 }
 
 .bodyArea {
-  /* font-family: 'Cormorant', serif; */
   display: flex;
   width: 100vw;
   flex-direction: row;
+  /* flex-flow: row-reverse; */
   flex: 1;
-  background: linear-gradient(180deg, DarkGray, #ffffff);
+  background: rgb(10, 10, 10);
 }
 
 .borderColumnL {
-  /* font-family: 'Cormorant', serif; */
   flex-shrink: 10;
   max-width: 15vw;
   width: 15vw;
   flex-direction: row;
-  background: linear-gradient(180deg, DarkGray, #ffffff);
+  background: rgb(10, 10, 10);
 }
 
 /* .borderColumnR { */
-/* font-family: 'Cormorant', serif; */
 
 /* width: 10vw;
   flex-direction: row;
@@ -264,64 +251,50 @@ body {
   .bodyAreaPage {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 
     /* width: 54vw; */
     width: 70rem;
     max-width: 70rem;
     min-width: 70rem;
-    height: 100pw;
-    margin-top: 3rem;
+    /* height: 70rem; */
+    padding: 2rem;
     /* margin-left: 247px; */
-    background: rgb(245, 245, 255);
-    min-height: 70vh;
+    background: rgb(10, 10, 10);
+    /* min-height: 70rem; */
     /* flex-shrink: 0; */
 
-    /* border: 1pt black solid;  */
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    /* border: 1pt aliceblue solid;  */
+    /* -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
       5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-      5px 5px 15px 5px rgba(0, 0, 0, 0);
+      5px 5px 15px 5px rgba(0, 0, 0, 0); */
   }
 }
 
 .bodyAreaPage {
   display: flex;
   flex-direction: column;
-  align-items: center;
-
+  align-items: left;
+  color: aliceblue;
+  padding: 2rem;
   /* width: 54vw; */
   width: 70rem;
-  max-width: 70rem;
-  min-width: 70rem;
-  height: 100pw;
-  margin-top: 3rem;
+  max-width: 90rem;
+  min-width: 90rem;
+  /* height: 70rem; */
+  max-height: 80vh;
+  margin: 2rem;
   /* margin-left: 247px; */
-  background: rgb(245, 245, 255);
-  min-height: 70vh;
+  background: rgb(10, 10, 10);
   /* flex-shrink: 0; */
 
-  /* border: 1pt black solid;  */
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+  border: 1pt aliceblue solid;
+  border-radius: 2rem;
+  /* -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-}
-
-.bodyAreaPageAuthor {
-  display: flex;
-  flex-direction: column;
-
-  margin-top: 7rem;
-  min-width: 46rem;
-  height: 100pw;
-  align-items: center;
-  justify-items: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.3rem;
-  letter-spacing: 0.25rem;
-  /*lesser not bolded like this*/
+    5px 5px 15px 5px rgba(0, 0, 0, 0); */
 }
 
 .bodyAreaPageTitle {
@@ -333,7 +306,7 @@ body {
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0.25rem;
-  text-align: center;
+  text-align: left;
   /*lesser not bolded like this*/
 }
 
@@ -346,24 +319,50 @@ body {
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0.25rem;
-  text-align: center;
+  text-align: left;
   margin-top: 7rem;
   /*lesser not bolded like this*/
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.bodyAreaPageSkillsHeading {
+  margin-top: 4.5rem;
+  min-width: 46rem;
+  height: 100pw;
+  align-items: center;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+  margin-top: 7rem;
+  animation: fade-in 1s;
+  /*lesser not bolded like this*/
+}
+
 .bodyAreaPageMainText {
+  /* color: aqua; */
+  /* font-weight: 100; */
+
   display: flex;
   flex-direction: row;
   margin-top: 4rem;
   /* margin-left: 8rem; */
-  width: 48rem;
+  width: 70rem;
 }
 
 .bodyAreaPageMainText2 {
   display: flex;
   flex-direction: row;
   /* margin-left: 8rem; */
-  width: 48rem;
+  width: 70rem;
 }
 
 .skillsContainer {
@@ -385,12 +384,12 @@ body {
   max-height: 22rem;
   margin-top: 3rem;
   /* margin-left: 247px; */
-  background: rgb(245, 245, 255);
+  background: rgb(10, 10, 10);
   min-height: 70vh;
   /* flex-shrink: 0; */
   margin: 1.5rem;
 
-  /* border: 1pt black solid;  */
+  /* border: 1pt aliceblue solid;  */
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
@@ -410,10 +409,9 @@ body {
   min-width: 40rem;
   height: 100pw;
   font-size: 1.25rem;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 2.25rem;
   text-align: justify;
-  margin-left: 0.5rem;
   /*lesser not bolded like this*/
 }
 
@@ -423,14 +421,13 @@ body {
 
   height: 100pw;
   font-size: 1.25rem;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 2.25rem;
   text-align: justify;
   /*lesser not bolded like this*/
 }
 
 .rightMenu {
-  /* font-family: 'Cormorant', serif; */
   /* align-items:; */
   /* flex: 1; */
   /* display: flex;
@@ -445,8 +442,7 @@ body {
   width: 20vw;
   position: relative;
   background: transparent;
-  color: black;
-  font-family: "Inter", sans-serif;
+  color: aliceblue;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.1rem;
@@ -458,7 +454,7 @@ body {
 }
 
 .rightMenuElement {
-  border: black solid;
+  border: aliceblue solid;
   font-weight: 500;
   line-height: 2rem;
   border-width: 0px 0px 1pt 0px;
@@ -484,9 +480,8 @@ body {
 }
 
 .rightMenuElement:hover {
-  /* font-family: 'Inter', sans-serif; */
   /* animation: fadeToGrey 1; */
-  color: lightgray;
+  color: white;
 }
 
 .App {
@@ -496,12 +491,6 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 @keyframes App-logo-spin {

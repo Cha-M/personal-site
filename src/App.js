@@ -3,13 +3,9 @@ import { Navbar } from "./Components/Navbar";
 import { Paper } from "./Components/Paper";
 import { Skills } from "./Components/Skills";
 import { Experience } from "./Components/Experience";
-import { ColumnLeft } from "./Components/ColumnLeft";
+// import { ColumnLeft } from "./Components/ColumnLeft";
 import { MenuRight } from "./Components/MenuRight";
 import { useState } from "react";
-
-//Commented out for Netlify
-
-// import { useState } from 'react';
 
 const App = () => {
   document.title = "Charlotte Megroff";
@@ -21,7 +17,6 @@ const App = () => {
         <Navbar clickState={clickState} setClickState={setClickState} />
 
         <div className="bodyArea">
-          <ColumnLeft />
           <Skills />
           <MenuRight />
         </div>
@@ -34,7 +29,6 @@ const App = () => {
         <Navbar clickState={clickState} setClickState={setClickState} />
 
         <div className="bodyArea">
-          <ColumnLeft />
           <Experience />
           <MenuRight />
         </div>
@@ -46,7 +40,6 @@ const App = () => {
         <Navbar clickState={clickState} setClickState={setClickState} />
 
         <div className="bodyArea">
-          <ColumnLeft />
           <Paper />
           <MenuRight />
         </div>
